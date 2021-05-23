@@ -51,7 +51,7 @@ const logSuccess = (result) => {
 };
 
 const logError = (id) => {
-  console.warn(`Error processing transaction ${id}. Please try again later.`);
+  console.log(`Error processing transaction ${id}. Please try again later.`);
 };
 
 /*Должно работать так*/
